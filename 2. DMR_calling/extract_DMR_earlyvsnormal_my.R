@@ -1,5 +1,5 @@
 date()
-setwd("/data2/Epi/likai/brest_cancer_project/all_sample_bam/DMR_my/nmvsearly_multicenter/")
+setwd("nmvsearly_multicenter/")
 
 #extract sam names
 sam.name = as.character(read.table("cpg_in_seg_all_sam",sep="\t",stringsAsFactors = F,nrows = 1))[7:170]

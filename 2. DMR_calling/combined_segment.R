@@ -1,4 +1,4 @@
-setwd("/data2/Epi/likai/brest_cancer_project/all_sample_bam/SMART/run/NMvsEarly/")
+setwd("./NMvsEarly/")
 
 ###extract the segments
 chrom = paste0("chr",c(1:22,"X","Y","MT"))
